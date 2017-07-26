@@ -25,20 +25,20 @@ install() {
 }
 
 function print_logo() {
-	green "         ENERGY  EHSAN    RICH         ENERGY"
-	green "         ENERGY  EHSAN    RICH         ENERGY"
-	green "         ENERGY  EHSAN    RICH         ENERGY"
-	green "         ENERGY  EHSAN    RICH         ENERGY"
+	green "         ░@░L░o░c░k░e░r░T░e░a░m░         ░@░S░u░d░o░L░o░c░k░e░r░"
+	green "         --L--O--C--K--E--R--T--E--A--M"
+	green "         ░R░E░B░O░R░N░T░E░A░M░          ░@░B░O░T░R░E░B░O░R░N░_░C░H░"
+	green "         ⋰@⋰S⋰u⋰d⋰o⋰L⋰o⋰c⋰k⋰e⋰r⋰        ⋰@⋰S⋰u⋰d⋰o⋰L⋰o⋰c⋰k⋰e⋰r⋰"
 	echo -e "\n\e[0m"
 }
 
 function logo_play() {
     declare -A txtlogo
     seconds="0.010"
-    txtlogo[1]="ENERGY  EHSAN    RICH         ENERGY"
-    txtlogo[2]="ENERGY  EHSAN    RICH         ENERGY"
-    txtlogo[3]="ENERGY  EHSAN    RICH         ENERGY"
-    txtlogo[4]="ENERGY  EHSAN    RICH         ENERGY"
+    txtlogo[1]="░@░L░o░c░k░e░r░T░e░a░m░       ░@░S░u░d░o░L░o░c░k░e░r░"
+    txtlogo[2]="--L--O--C--K--E--R--T--E--A--M         ░@░S░u░d░o░L░o░c░k░e░r░"
+    txtlogo[3]="░R░E░B░O░R░N░T░E░A░M░         ░@░B░O░T░R░E░B░O░R░N░_░C░H░"
+    txtlogo[4]="--L--O--C--K--E--R--T--E--A--M         ░@░S░u░d░o░L░o░c░k░e░r░"
     printf "\e[31m\t"
     for i in ${!txtlogo[@]}; do
         for x in `seq 0 ${#txtlogo[$i]}`; do
@@ -53,12 +53,12 @@ function logo_play() {
 
 function lockerteam() {
 	echo -e "\e[0m"
-	green "     >>>>                       edir 4 source                                               "
-	green "     >>>>                       beyond.locker and...                                       "
-	white "     >>>>                       edited by ehsan mafia_boy   @mafia_boy                      "
-	white "     >>>>                       @RICH_ENERGY                                                "
-	red   "     >>>>                       @ENERGY_TEAM                                                "
-	red   "     >>>>                       ENERGY_BOT                                                  "
+	green "     >>>>                       ░@░L░o░c░k░e░r░T░e░a░m░                                               "
+	green "     >>>>                       ░B░e░y░o░n░d░-░L░o░c░k░e░r░ and...                                       "
+	white "     >>>>                       edited by M҉O҉H҉A҉M҉A҉D҉R҉E҉Z҉AᴸσᶜкєяƬєαм  @SudoLocker                      "
+	white "     >>>>                       @LockerTeam                                                "
+	red   "     >>>>                       @BotReborn_ch                                                "
+	red   "     >>>>                       @LockerSupport_BOT                                                  "
 	echo -e "\e[0m"
 }
 
