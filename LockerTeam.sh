@@ -28,7 +28,7 @@ function print_logo() {
 	green "         ░@░L░o░c░k░e░r░T░e░a░m░         ░@░S░u░d░o░L░o░c░k░e░r░"
 	green "         --L--O--C--K--E--R--T--E--A--M"
 	green "         ░R░E░B░O░R░N░T░E░A░M░          ░@░B░O░T░R░E░B░O░R░N░_░C░H░"
-	green "         ⋰@⋰S⋰u⋰d⋰o⋰L⋰o⋰c⋰k⋰e⋰r⋰        ⋰@⋰S⋰u⋰d⋰o⋰L⋰o⋰c⋰k⋰e⋰r⋰"
+	green "        ░@░S░u░d░o░L░o░c░k░e░r░          ░@░S░u░d░o░L░o░c░k░e░r░ "
 	echo -e "\n\e[0m"
 }
 
@@ -55,7 +55,7 @@ function lockerteam() {
 	echo -e "\e[0m"
 	green "     >>>>                       ░@░L░o░c░k░e░r░T░e░a░m░                                               "
 	green "     >>>>                       ░B░e░y░o░n░d░-░L░o░c░k░e░r░ and...                                       "
-	white "     >>>>                       edited by M҉O҉H҉A҉M҉A҉D҉R҉E҉Z҉AᴸσᶜкєяƬєαм  @SudoLocker                      "
+	white "     >>>>                       edited by Mr:Mohammadreza  @SudoLocker                      "
 	white "     >>>>                       @LockerTeam                                                "
 	red   "     >>>>                       @BotReborn_ch                                                "
 	red   "     >>>>                       @LockerSupport_BOT                                                  "
